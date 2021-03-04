@@ -28,5 +28,12 @@
   },
   "config": {
     "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "torsal\\AnonymisedSQLDumps\\AnonymisedSQLDumpsServiceProvider"
+        ],
+    }
   }
 }
