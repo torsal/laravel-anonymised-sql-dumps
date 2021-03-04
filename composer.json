@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Heyday\\AnonymisedSQLDumps\\": "src"
+      "torsal\\AnonymisedSQLDumps\\": "src"
     }
   },
   "config": {
