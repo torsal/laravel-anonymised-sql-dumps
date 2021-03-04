@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "php": "^7.1"
+    "php": "^7.1",
     "ifsnop/mysqldump-php": "2.9",
     "fakerphp/faker": "v1.12.1"
   },
