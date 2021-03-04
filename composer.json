@@ -1,5 +1,5 @@
 {
-  "name": "heyday/laravel-anonymised-sql-dumps",
+  "name": "torsal/laravel-anonymised-sql-dumps",
   "description": "Generate anonymised SQL dumps for Laravel. Wrapper for ifsnop/mysqldump-php",
   "keywords": [
     "heyday",
