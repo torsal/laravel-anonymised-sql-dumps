@@ -17,9 +17,10 @@
     }
   ],
   "require": {
-    "php": "^7.0",
-    "ifsnop/mysqldump-php": "^2.6",
-    "fzaninotto/faker": "~1.4"
+    "php": "^7.1"
+    "ifsnop/mysqldump-php": "dev-master#2.9",
+    "fakerphp/faker": "dev-master#v1.12.1"
+	
   },
   "autoload": {
     "psr-4": {
