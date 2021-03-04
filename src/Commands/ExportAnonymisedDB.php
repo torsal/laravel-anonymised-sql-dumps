@@ -1,6 +1,6 @@
 <?php
 
-namespace Heyday\AnonymisedSQLDumps\Commands;
+namespace torsal\AnonymisedSQLDumps\Commands;
 
 use Illuminate\Console\Command;
 use Ifsnop\Mysqldump as IMysqldump;

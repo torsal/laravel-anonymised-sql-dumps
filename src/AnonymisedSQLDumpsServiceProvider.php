@@ -1,6 +1,6 @@
 <?php
 
-namespace Heyday\AnonymisedSQLDumps;
+namespace torsal\AnonymisedSQLDumps;
 
 use Illuminate\Support\ServiceProvider;
 use Heyday\AnonymisedSQLDumps\Commands\ExportAnonymisedDB;
