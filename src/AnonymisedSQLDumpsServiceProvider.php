@@ -3,7 +3,7 @@
 namespace torsal\AnonymisedSQLDumps;
 
 use Illuminate\Support\ServiceProvider;
-use Heyday\AnonymisedSQLDumps\Commands\ExportAnonymisedDB;
+use torsal\AnonymisedSQLDumps\Commands\ExportAnonymisedDB;
 
 class AnonymisedSQLDumpsServiceProvider extends ServiceProvider
 {
