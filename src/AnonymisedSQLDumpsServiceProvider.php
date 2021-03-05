@@ -4,6 +4,7 @@ namespace torsal\AnonymisedSQLDumps;
 
 use Illuminate\Support\ServiceProvider;
 use torsal\AnonymisedSQLDumps\Commands\ExportAnonymisedDB;
+use torsal\AnonymisedSQLDumps\Commands\ConfigGenerate;
 
 class AnonymisedSQLDumpsServiceProvider extends ServiceProvider
 {
@@ -20,8 +21,12 @@ class AnonymisedSQLDumpsServiceProvider extends ServiceProvider
         }
 
         $this->app->bind('command.snapshot:create', ExportAnonymisedDB::class);
+        $this->app->bind('command.config:generate', ConfigGenerate::class);
         $this->commands([
             'command.snapshot:create'
+        ]); 
+         $this->commands([
+            'command.config:generate'
         ]);
     }
 
