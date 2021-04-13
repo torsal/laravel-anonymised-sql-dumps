@@ -19,7 +19,7 @@
   "require": {
     "php": "^7.1",
     "ifsnop/mysqldump-php": "2.9",
-    "fakerphp/faker": "v1.12.1"
+    "fakerphp/faker": "^1.9.1"
   },
   "autoload": {
     "psr-4": {
